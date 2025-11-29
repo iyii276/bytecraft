@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bytecraft Programming Language</title>
+  <link rel="shortcut icon" href="myicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #1e1e1e;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #282c34;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #61dafb;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #61dafb;
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    pre {
+      background: #2d2d2d;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+      margin-bottom: 20px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #61dafb;
+      color: #1e1e1e;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .download-btn:hover {
+      background: #21a1f1;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      border-top: 1px solid #444;
+      margin-top: 40px;
+    }
+
+    code {
+      background: #2d2d2d;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bytecraft</h1>
+    <p>The beginner-friendly programming language for learning & scripting</p>
+    <a href="bytecraft.zip" class="download-btn" download>Download Bytecraft ZIP</a>
+  </header>
+
+  <section>
+    <h2>About Bytecraft</h2>
+    <p>Bytecraft is a simple programming language designed for beginners to learn programming concepts and create small scripts safely. It supports variables, printing output, arithmetic, and string concatenation.</p>
+
+    <h2>Getting Started</h2>
+    <p>Write your programs in plain text files with the <code>.bc</code> extension. Run them using the <code>bytecraft.exe</code> interpreter:</p>
+    <pre>bytecraft myprogram.bc</pre>
+
+    <h2>Example Program</h2>
+    <pre>
+// Example Bytecraft program
+assign greeting -> "Hello"
+assign name -> "Alice"
+assign age -> 20
+
+say(greeting + ", " + name + "!") // Hello, Alice!
+say("You are " + age + " years old") // You are 20 years old
+
+assign a -> 10
+assign b -> 5
+say(a + b) // 15
+say(a - b) // 5
+say(a * b) // 50
+say(a / b) // 2
+    </pre>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Variables with <code>assign</code></li>
+      <li>Printing output using <code>say()</code></li>
+      <li>String concatenation and arithmetic operations</li>
+      <li>Comments using <code>//</code></li>
+      <li>Error handling for undefined variables & invalid operations</li>
+    </ul>
+
+    <h2>Download</h2>
+    <p>Get Bytecraft as a ZIP file and start scripting today:</p>
+    <a href="bytecraft.zip" class="download-btn" download>Download Bytecraft ZIP</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Bytecraft. All rights reserved.
+  </footer>
+
+</body>
+</html>
